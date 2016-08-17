@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title> Hangman-"Movies Theme"</title>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script type="text/javascript" src="assets/javascript/hangman-game.js"></script>
+ </head>
+<div class="container-fluid">
+    <div class="row">       
+      <div class="col-md-12 text-center">          
+        <h1 class="jumbotron  text-center"> Ultimate Movie Hangman (PG)</h1>
+      </div>
+    </div>
+</div>
+ <body>
+  <div class="container">
+    <div class="row">       
+      <div class="col-md-8 text-center">
+        <p id = game>Press any letter to guess the movie name !!</p>
+      </div>
+    </div>
+    <div class="col-sm-8 btn text-center">
+      <div id= movieName>Cool Movie: 
+      </div>
+    </div>
+      <div class="col-sm-8 btn text-center">
+        <div id=numlives> Lives Left: 6
+        </div>
+      </div>
+      <div class="col-sm-8 btn text-center">
+          <div id=userGuessedLetters>User Guessed Letters : 
+          </div>
+          <br>  
+          <div class="col-sm-6 btn text-center">
+            <form name ="letters">
+            <input id=new name ="refesh" type="button" value= "New Game" onClick="location.reload()">
+            </form><br>
+          </div>
+      </div>
+  </div>
+</body>
+</html>
+
+ 

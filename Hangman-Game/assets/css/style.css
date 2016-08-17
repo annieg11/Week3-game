@@ -1,0 +1,45 @@
+ body{
+    background: url("http://alliswall.com/file/8242/1920x1200/16:9/action_scene_from_thor.jpg");
+    }
+  .jumbotron{
+    background-color:black;
+    color:white;
+    font-size:50px;
+    font-weight: bolder;     
+   }
+   #game{
+    background-color:tan;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    font-weight:bolder;
+  }
+  #movieName{
+    color: white;
+    font-weight: bolder;
+    background-color:red;
+    padding:15px;
+    font-size:25px;
+  }
+  #numlives{
+    color:blue;
+    background-color:white;
+    padding:15px;
+    font-size:25px;
+    font-weight:bold;
+  }
+  #userGuessedLetters{
+    color:black;
+    background-color:blue;
+    padding:15px;
+    font-size:25px;
+    font-weight:bold;
+  }
+  #new{
+    background-color:green;
+    color:black;
+    width:200px;
+    font-size: 30px;
+    text-align:center;
+    box-sizing: 20px;  
+   }
